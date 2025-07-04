@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Alex Johnson, showcasing over 8 years of experience in web development and design.">
+    <title>Alex Johnson | Senior Frontend Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo" id="name">Alex</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="language-selector">
+                <button class="lang-btn" data-lang="en">🇺🇸 US</button>
+                <button class="lang-btn" data-lang="pt">🇧🇷 BR</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo" id="lastname">Johnson</div>
+            <p class="tagline" id="tagline">I build exceptional digital experiences that drive results.</p>
+            <a href="#" class="cta-button" id="cta">Download CV</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 id="about-title">About Me</h2>
+            <div class="about-content">
+                <p id="about-content">I'm a Senior Frontend Developer passionate about creating beautiful, functional, and accessible web applications. With over 8 years of experience, I specialize in React, TypeScript, and modern CSS architectures. My approach combines technical excellence with thoughtful design to deliver products that users love.</p>
+                <div class="skills" id="skills">
+                    <!-- Skills will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid" id="projects">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 id="contact-title">Get in Touch</h2>
+            <div class="contact-info">
+                <a href="mailto:hello@alexdev.com" class="contact-email" id="contact-email">hello@alexdev.com</a>
+                <div class="social-links" id="social-links">
+                    <!-- Social links will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year">2024</span> <span id="footer-name">Alex Johnson</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html> 
