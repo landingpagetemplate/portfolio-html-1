@@ -1,0 +1,47 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": {
+      "title": "Error loading content",
+      "message": "Please check if the content file is available."
+    }
+  },
+  "meta": {
+    "title": "Alex Johnson | Senior Frontend Developer",
+    "description": "Professional portfolio of Alex Johnson, showcasing 8+ years of experience in web development and design."
+  },
+  "header": {
+    "name": "Alex",
+    "lastname": "Johnson",
+    "tagline": "I build exceptional digital experiences that drive results.",
+    "cta": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "content": "I'm a Senior Frontend Developer with a passion for creating beautiful, functional, and accessible web applications. With over 8 years of experience, I specialize in React, TypeScript, and modern CSS architectures. My approach combines technical excellence with thoughtful design to deliver products that users love.",
+    "skills": ["React", "TypeScript", "Next.js", "GraphQL", "Node.js", "Figma", "UX Design", "Web Performance"]
+  },
+  "projects": [
+    {
+      "title": "E-commerce Platform",
+      "description": "A full-featured online store with cart functionality",
+      "tags": ["React", "Node.js", "MongoDB"],
+      "image": "project1.jpg"
+    },
+    {
+      "title": "Portfolio Template",
+      "description": "Responsive portfolio template for creatives",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "image": "project2.jpg"
+    }
+  ],
+  "contact": {
+    "title": "Get In Touch",
+    "email": "hello@alexdev.com",
+    "social": [
+      {"name": "GitHub", "url": "#"},
+      {"name": "LinkedIn", "url": "#"},
+      {"name": "Twitter", "url": "#"}
+    ]
+  }
+} 

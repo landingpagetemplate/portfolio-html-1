@@ -1,0 +1,47 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "error": {
+      "title": "Erro ao carregar o conteúdo",
+      "message": "Verifique se o arquivo de conteúdo está disponível."
+    }
+  },
+  "meta": {
+    "title": "Alex Johnson | Desenvolvedor Frontend Senior",
+    "description": "Portfólio profissional de Alex Johnson, mostrando mais de 8 anos de experiência em desenvolvimento web e design."
+  },
+  "header": {
+    "name": "Alex",
+    "lastname": "Johnson",
+    "tagline": "Eu construo experiências digitais excepcionais que geram resultados.",
+    "cta": "Baixar CV"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "content": "Sou um Desenvolvedor Frontend Senior com paixão por criar aplicações web bonitas, funcionais e acessíveis. Com mais de 8 anos de experiência, me especializo em React, TypeScript e arquiteturas CSS modernas. Minha abordagem combina excelência técnica com design cuidadoso para entregar produtos que os usuários adoram.",
+    "skills": ["React", "TypeScript", "Next.js", "GraphQL", "Node.js", "Figma", "UX Design", "Performance Web"]
+  },
+  "projects": [
+    {
+      "title": "Plataforma E-commerce",
+      "description": "Uma loja online completa com funcionalidade de carrinho",
+      "tags": ["React", "Node.js", "MongoDB"],
+      "image": "project1.jpg"
+    },
+    {
+      "title": "Template de Portfólio",
+      "description": "Template responsivo de portfólio para criativos",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "image": "project2.jpg"
+    }
+  ],
+  "contact": {
+    "title": "Entre em Contato",
+    "email": "hello@alexdev.com",
+    "social": [
+      {"name": "GitHub", "url": "#"},
+      {"name": "LinkedIn", "url": "#"},
+      {"name": "Twitter", "url": "#"}
+    ]
+  }
+} 
